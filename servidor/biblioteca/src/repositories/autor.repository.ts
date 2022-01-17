@@ -1,6 +1,6 @@
 import {inject} from '@loopback/core';
 import {DefaultCrudRepository} from '@loopback/repository';
-import {BibliotecaDataSource} from '../datasources';
+import {DbDataSource} from '../datasources';
 import {Autor, AutorRelations} from '../models';
 
 export class AutorRepository extends DefaultCrudRepository<
@@ -9,7 +9,7 @@ export class AutorRepository extends DefaultCrudRepository<
   AutorRelations
 > {
   constructor(
-    @inject('datasources.biblioteca') dataSource: BibliotecaDataSource,
+    @inject('datasources.db') dataSource: DbDataSource,
   ) {
     super(Autor, dataSource);
   }
