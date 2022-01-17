@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "Autor": 1,
+    "Editora": 1,
+    "Livro": 1
+  },
+  "models": {
+    "Autor": {},
+    "Editora": {},
+    "Livro": {}
+  }
+}
