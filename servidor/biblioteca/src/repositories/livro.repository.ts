@@ -1,6 +1,6 @@
 import {inject, Getter} from '@loopback/core';
 import {DefaultCrudRepository, repository, BelongsToAccessor} from '@loopback/repository';
-import {DbDataSource} from '../datasources';
+import {BibliotecaDataSource} from '../datasources';
 import {Livro, LivroRelations, Editora, Autor} from '../models';
 import {EditoraRepository} from './editora.repository';
 import {AutorRepository} from './autor.repository';
@@ -16,7 +16,7 @@ export class LivroRepository extends DefaultCrudRepository<
   public readonly autor: BelongsToAccessor<Autor, typeof Livro.prototype.id_livro>;
 
   constructor(
-    @inject('datasources.db') dataSource: DbDataSource, @repository.getter('EditoraRepository') protected editoraRepositoryGetter: Getter<EditoraRepository>, @repository.getter('AutorRepository') protected autorRepositoryGetter: Getter<AutorRepository>,
+    @inject('datasources.db') dataSource: BibliotecaDataSource, @repository.getter('EditoraRepository') protected editoraRepositoryGetter: Getter<EditoraRepository>, @repository.getter('AutorRepository') protected autorRepositoryGetter: Getter<AutorRepository>,
   ) {
     super(Livro, dataSource);
     this.autor = this.createBelongsToAccessorFor('autor', autorRepositoryGetter,);
