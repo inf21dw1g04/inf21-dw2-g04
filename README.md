@@ -29,7 +29,8 @@ An example report using markdown on Github. This documentation is writen using [
 * Multipass
 * NodeJS
 * JQuery
-* ReactJS
+* ReactAdmin
+* Loopback
 
 ## Report
 
