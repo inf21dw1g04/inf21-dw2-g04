@@ -1,5 +1,6 @@
 import {Entity, model, property, belongsTo} from '@loopback/repository';
 import {Editora} from './editora.model';
+import {Autor} from './autor.model';
 
 @model()
 export class Livro extends Entity {
@@ -19,13 +20,11 @@ export class Livro extends Entity {
     type: 'number',
   })
   ano_publicacao?: number;
-  @property({
-    type: 'number',
-  })
-  id_autor?: number;
-
   @belongsTo(() => Editora, {name: 'editora'})
   id_editora: number;
+
+  @belongsTo(() => Autor, {name: 'autor'})
+  id_autor: number;
 
   constructor(data?: Partial<Livro>) {
     super(data);
