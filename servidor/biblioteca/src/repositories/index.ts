@@ -1,4 +1,4 @@
 export * from './autor.repository';
-export * from './editoras.repository';
-export * from './livros.repository';
-export * from './utilizadores.repository';
+export * from './editora.repository';
+export * from './livro.repository';
+export * from './utilizador.repository';
