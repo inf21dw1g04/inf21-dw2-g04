@@ -21,14 +21,15 @@ An example report using markdown on Github. This documentation is writen using [
 * MySQL Workbench (https://www.mysql.com/products/workbench/)
 * Postman (https://www.postman.com/)
 * GitHub (https://github.com/)
-* Docker (https://www.docker.com/)
+* Loopback4 (https://loopback.io/)
+* ReactJS (https://reactjs.org/)
 
 ### Frameworks and Libraries
 
-* Docker
 * Multipass
 * NodeJS
 * JQuery
+* ReactJS
 
 ## Report
 
