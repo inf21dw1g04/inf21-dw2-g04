@@ -1,0 +1,1062 @@
+{
+	"info": {
+		"_postman_id": "d149cca8-139b-4b88-a388-c21a03c8be36",
+		"name": "M3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AutorController",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/autors/1",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/autors/1",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"autors",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/autors/2",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/autors/2",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"autors",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/autors/5",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/autors/5",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"autors",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/autors/5",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/autors/5",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"autors",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/autors",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/autors",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"autors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/autors",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id_autor\": 0,\n  \"nome\": \"string\",\n  \"nacionalidade\": \"string\"\n}"
+						},
+						"url": {
+							"raw": "http://[::1]:3000/autors",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"autors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/autors",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/autors",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"autors"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "EditoraController",
+			"item": [
+				{
+					"name": "http://[::1]:3000/editoras/count",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/editoras/count",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editoras",
+								"count"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/editoras/2",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/editoras/2",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editoras",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/editoras/3",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/editoras/3",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editoras",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/editoras/7",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/editoras/7",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editoras",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/editoras/2",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/editoras/2",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editoras",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/editoras",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/editoras",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editoras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/editoras",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id_editora\": 0,\n  \"nome\": \"string\"\n}"
+						},
+						"url": {
+							"raw": "http://[::1]:3000/editoras",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editoras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/editoras",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/editoras",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editoras"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "EditoraLivroController",
+			"item": [
+				{
+					"name": "http://[::1]:3000/editoras/9/livros",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/editoras/9/livros",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editoras",
+								"9",
+								"livros"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/editoras/4/livros",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id_livro\": 0,\n  \"titulo\": \"string\",\n  \"ano_publicacao\": 0,\n  \"id_editora\": 0,\n  \"id_autor\": 0\n}"
+						},
+						"url": {
+							"raw": "http://[::1]:3000/editoras/4/livros",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editoras",
+								"4",
+								"livros"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/editoras/21/livros",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/editoras/21/livros",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editoras",
+								"21",
+								"livros"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/editoras/15/livros",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/editoras/15/livros",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editoras",
+								"15",
+								"livros"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "LivroController",
+			"item": [
+				{
+					"name": "http://[::1]:3000/livros/count",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/livros/count",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"livros",
+								"count"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/livros/23",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/livros/23",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"livros",
+								"23"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/livros/2",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/livros/2",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"livros",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/livros/7",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/livros/7",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"livros",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/livros/3",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/livros/3",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"livros",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/livros",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/livros",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"livros"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/livros",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id_livro\": 0,\n  \"titulo\": \"string\",\n  \"ano_publicacao\": 0,\n  \"id_editora\": 0,\n  \"id_autor\": 0\n}"
+						},
+						"url": {
+							"raw": "http://[::1]:3000/livros",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"livros"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/livros",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/livros",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"livros"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "LivroAutorController",
+			"item": [
+				{
+					"name": "http://[::1]:3000/livros/6/autor",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/livros/6/autor",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"livros",
+								"6",
+								"autor"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PingController",
+			"item": [
+				{
+					"name": "http://[::1]:3000/ping",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/ping",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"ping"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "UtilizadorController",
+			"item": [
+				{
+					"name": "http://[::1]:3000/utilizadors/count",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/utilizadors/count",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"utilizadors",
+								"count"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/utilizadors/16",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/utilizadors/16",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"utilizadors",
+								"16"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/utilizadors/14",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/utilizadors/14",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"utilizadors",
+								"14"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/utilizadors/18",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/utilizadors/18",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"utilizadors",
+								"18"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/utilizadors/1",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/utilizadors/1",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"utilizadors",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/utilizadors",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/utilizadors",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"utilizadors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/utilizadors",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id_utilizador\": 0,\n  \"nome\": \"string\"\n}"
+						},
+						"url": {
+							"raw": "http://[::1]:3000/utilizadors",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"utilizadors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://[::1]:3000/utilizadors",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/utilizadors",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"utilizadors"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
