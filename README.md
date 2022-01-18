@@ -29,7 +29,8 @@ An example report using markdown on Github. This documentation is writen using [
 * Multipass
 * NodeJS
 * JQuery
-* ReactJS
+* ReactAdmin
+* Loopback
 
 ## Report
 
@@ -53,8 +54,6 @@ An example report using markdown on Github. This documentation is writen using [
 * Chapter 2: [Resources](doc/c2.md)
 ### Product
 * Chapter 3: [Product](doc/c3.md)
-### Presentation
-* Chapter 4: [Presentation](doc/c4.md)
 
 ## Team
 * Rodrigo Moreira [@rodmoreira41](https://github.com/rodmoreira41)
