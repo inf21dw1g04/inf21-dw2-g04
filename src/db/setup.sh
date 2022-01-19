@@ -1,5 +1,5 @@
 #!/bin/bash
 set -e
 service mysql start
-mysql < /app/biblioteca.sql
+mysql < /db/biblioteca.sql
 service mysql stop
