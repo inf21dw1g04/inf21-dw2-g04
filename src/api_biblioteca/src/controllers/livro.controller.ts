@@ -26,7 +26,7 @@ export class LivroController {
     public livroRepository : LivroRepository,
   ) {}
 
-  @post('/livros')
+  @post('/livro')
   @response(200, {
     description: 'Livro model instance',
     content: {'application/json': {schema: getModelSchemaRef(Livro)}},
@@ -47,7 +47,7 @@ export class LivroController {
     return this.livroRepository.create(livro);
   }
 
-  @get('/livros/count')
+  @get('/livro/count')
   @response(200, {
     description: 'Livro model count',
     content: {'application/json': {schema: CountSchema}},
@@ -58,7 +58,7 @@ export class LivroController {
     return this.livroRepository.count(where);
   }
 
-  @get('/livros')
+  @get('/livro')
   @response(200, {
     description: 'Array of Livro model instances',
     content: {
@@ -76,7 +76,7 @@ export class LivroController {
     return this.livroRepository.find(filter);
   }
 
-  @patch('/livros')
+  @patch('/livro')
   @response(200, {
     description: 'Livro PATCH success count',
     content: {'application/json': {schema: CountSchema}},
@@ -95,7 +95,7 @@ export class LivroController {
     return this.livroRepository.updateAll(livro, where);
   }
 
-  @get('/livros/{id}')
+  @get('/livro/{id}')
   @response(200, {
     description: 'Livro model instance',
     content: {
@@ -111,7 +111,7 @@ export class LivroController {
     return this.livroRepository.findById(id, filter);
   }
 
-  @patch('/livros/{id}')
+  @patch('/livro/{id}')
   @response(204, {
     description: 'Livro PATCH success',
   })
@@ -129,7 +129,7 @@ export class LivroController {
     await this.livroRepository.updateById(id, livro);
   }
 
-  @put('/livros/{id}')
+  @put('/livro/{id}')
   @response(204, {
     description: 'Livro PUT success',
   })
@@ -140,7 +140,7 @@ export class LivroController {
     await this.livroRepository.replaceById(id, livro);
   }
 
-  @del('/livros/{id}')
+  @del('/livro/{id}')
   @response(204, {
     description: 'Livro DELETE success',
   })

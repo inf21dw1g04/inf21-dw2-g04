@@ -26,7 +26,7 @@ export class UtilizadorController {
     public utilizadorRepository : UtilizadorRepository,
   ) {}
 
-  @post('/utilizadors')
+  @post('/utilizador')
   @response(200, {
     description: 'Utilizador model instance',
     content: {'application/json': {schema: getModelSchemaRef(Utilizador)}},
@@ -47,7 +47,7 @@ export class UtilizadorController {
     return this.utilizadorRepository.create(utilizador);
   }
 
-  @get('/utilizadors/count')
+  @get('/utilizador/count')
   @response(200, {
     description: 'Utilizador model count',
     content: {'application/json': {schema: CountSchema}},
@@ -58,7 +58,7 @@ export class UtilizadorController {
     return this.utilizadorRepository.count(where);
   }
 
-  @get('/utilizadors')
+  @get('/utilizador')
   @response(200, {
     description: 'Array of Utilizador model instances',
     content: {
@@ -76,7 +76,7 @@ export class UtilizadorController {
     return this.utilizadorRepository.find(filter);
   }
 
-  @patch('/utilizadors')
+  @patch('/utilizador')
   @response(200, {
     description: 'Utilizador PATCH success count',
     content: {'application/json': {schema: CountSchema}},
@@ -95,7 +95,7 @@ export class UtilizadorController {
     return this.utilizadorRepository.updateAll(utilizador, where);
   }
 
-  @get('/utilizadors/{id}')
+  @get('/utilizador/{id}')
   @response(200, {
     description: 'Utilizador model instance',
     content: {
@@ -111,7 +111,7 @@ export class UtilizadorController {
     return this.utilizadorRepository.findById(id, filter);
   }
 
-  @patch('/utilizadors/{id}')
+  @patch('/utilizador/{id}')
   @response(204, {
     description: 'Utilizador PATCH success',
   })
@@ -129,7 +129,7 @@ export class UtilizadorController {
     await this.utilizadorRepository.updateById(id, utilizador);
   }
 
-  @put('/utilizadors/{id}')
+  @put('/utilizador/{id}')
   @response(204, {
     description: 'Utilizador PUT success',
   })
@@ -140,7 +140,7 @@ export class UtilizadorController {
     await this.utilizadorRepository.replaceById(id, utilizador);
   }
 
-  @del('/utilizadors/{id}')
+  @del('/utilizador/{id}')
   @response(204, {
     description: 'Utilizador DELETE success',
   })

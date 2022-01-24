@@ -26,7 +26,7 @@ export class AutorController {
     public autorRepository : AutorRepository,
   ) {}
 
-  @post('/autors')
+  @post('/autor')
   @response(200, {
     description: 'Autor model instance',
     content: {'application/json': {schema: getModelSchemaRef(Autor)}},
@@ -47,7 +47,7 @@ export class AutorController {
     return this.autorRepository.create(autor);
   }
 
-  @get('/autors/count')
+  @get('/autor/count')
   @response(200, {
     description: 'Autor model count',
     content: {'application/json': {schema: CountSchema}},
@@ -58,7 +58,7 @@ export class AutorController {
     return this.autorRepository.count(where);
   }
 
-  @get('/autors')
+  @get('/autor')
   @response(200, {
     description: 'Array of Autor model instances',
     content: {
@@ -76,7 +76,7 @@ export class AutorController {
     return this.autorRepository.find(filter);
   }
 
-  @patch('/autors')
+  @patch('/autor')
   @response(200, {
     description: 'Autor PATCH success count',
     content: {'application/json': {schema: CountSchema}},
@@ -95,7 +95,7 @@ export class AutorController {
     return this.autorRepository.updateAll(autor, where);
   }
 
-  @get('/autors/{id}')
+  @get('/autor/{id}')
   @response(200, {
     description: 'Autor model instance',
     content: {
@@ -111,7 +111,7 @@ export class AutorController {
     return this.autorRepository.findById(id, filter);
   }
 
-  @patch('/autors/{id}')
+  @patch('/autor/{id}')
   @response(204, {
     description: 'Autor PATCH success',
   })
@@ -129,7 +129,7 @@ export class AutorController {
     await this.autorRepository.updateById(id, autor);
   }
 
-  @put('/autors/{id}')
+  @put('/autor/{id}')
   @response(204, {
     description: 'Autor PUT success',
   })
@@ -140,7 +140,7 @@ export class AutorController {
     await this.autorRepository.replaceById(id, autor);
   }
 
-  @del('/autors/{id}')
+  @del('/autor/{id}')
   @response(204, {
     description: 'Autor DELETE success',
   })

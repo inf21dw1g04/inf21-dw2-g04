@@ -26,7 +26,7 @@ export class EditoraController {
     public editoraRepository : EditoraRepository,
   ) {}
 
-  @post('/editoras')
+  @post('/editora')
   @response(200, {
     description: 'Editora model instance',
     content: {'application/json': {schema: getModelSchemaRef(Editora)}},
@@ -47,7 +47,7 @@ export class EditoraController {
     return this.editoraRepository.create(editora);
   }
 
-  @get('/editoras/count')
+  @get('/editora/count')
   @response(200, {
     description: 'Editora model count',
     content: {'application/json': {schema: CountSchema}},
@@ -58,7 +58,7 @@ export class EditoraController {
     return this.editoraRepository.count(where);
   }
 
-  @get('/editoras')
+  @get('/editora')
   @response(200, {
     description: 'Array of Editora model instances',
     content: {
@@ -76,7 +76,7 @@ export class EditoraController {
     return this.editoraRepository.find(filter);
   }
 
-  @patch('/editoras')
+  @patch('/editora')
   @response(200, {
     description: 'Editora PATCH success count',
     content: {'application/json': {schema: CountSchema}},
@@ -95,7 +95,7 @@ export class EditoraController {
     return this.editoraRepository.updateAll(editora, where);
   }
 
-  @get('/editoras/{id}')
+  @get('/editora/{id}')
   @response(200, {
     description: 'Editora model instance',
     content: {
@@ -111,7 +111,7 @@ export class EditoraController {
     return this.editoraRepository.findById(id, filter);
   }
 
-  @patch('/editoras/{id}')
+  @patch('/editora/{id}')
   @response(204, {
     description: 'Editora PATCH success',
   })
@@ -129,7 +129,7 @@ export class EditoraController {
     await this.editoraRepository.updateById(id, editora);
   }
 
-  @put('/editoras/{id}')
+  @put('/editora/{id}')
   @response(204, {
     description: 'Editora PUT success',
   })
@@ -140,7 +140,7 @@ export class EditoraController {
     await this.editoraRepository.replaceById(id, editora);
   }
 
-  @del('/editoras/{id}')
+  @del('/editora/{id}')
   @response(204, {
     description: 'Editora DELETE success',
   })
