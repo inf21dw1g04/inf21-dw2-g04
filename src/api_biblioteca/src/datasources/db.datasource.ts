@@ -9,7 +9,7 @@ const config = {
   port: '',
   user: 'root',
   password: '12345678',
-  database: 'teste2'
+  database: 'biblioteca'
 };
 
 // Observe application's life cycle to disconnect the datasource when

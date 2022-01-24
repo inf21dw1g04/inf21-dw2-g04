@@ -22,6 +22,7 @@ export class Livro extends Entity {
     required: true,
   })
   ano_publicacao: number;
+  
   @belongsTo(() => Autor, {name: 'livroAutor'})
   id_autor: number;
 
