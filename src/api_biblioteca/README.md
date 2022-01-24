@@ -1,75 +1,52 @@
-# api_biblioteca
+# Biblioteca
 
-This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/lb4/Command-line-interface.html) with the
-[initial project layout](https://loopback.io/doc/en/lb4/Loopback-application-layout.html).
+Repository to host the project developed for Desenvolvimento Web I, a second year subject at Universidade da Maia - ISMAI. Developed by Group 04 : [@rodmoreira41](https://github.com/rodmoreira41), [@pauloazevedo1994](https://github.com/pauloazevedo1994), [@JoaoAragaoA039132](https://github.com/JoaoAragaoA039132).
 
-## Install dependencies
+## Short theme description
 
-By default, dependencies were installed when this application was generated.
-Whenever dependencies in `package.json` are changed, run the following command:
+An example report using markdown on Github. This documentation is writen using [Markdown](https://www.markdownguide.org/). Here is a [link to the basic syntax](https://www.markdownguide.org/basic-syntax), but an [extended syntax](https://www.markdownguide.org/extended-syntax/) is also available. If you're starting with Markdown, you may want to try a [Markdown Tutorial](https://www.markdowntutorial.com/) and read the [getting started](https://www.markdownguide.org/getting-started/) section.
 
-```sh
-npm install
-```
+## Repository organization
 
-To only install resolved dependencies in `package-lock.json`:
+* **Source code** is in the [src folder](src/).
+* Report chapters are in [doc folder](doc/).
+* Initial [OpenApi document](api/openapi.yaml)
 
-```sh
-npm ci
-```
+## Gallery
 
-## Run the application
+_Please provide a galery of the final result, with small images_
+A [table](https://www.markdownguide.org/extended-syntax/#tables) may be usefull to organize the images.
 
-```sh
-npm start
-```
+## Technologies
 
-You can also run `node .` to skip the build step.
+* Javascript (https://developer.mozilla.org/en-US/docs/Web/JavaScript/About_JavaScript)
+* nodeJS (https://nodejs.org/en/)
+* Yaml (https://yaml.org/)
+* Markdown (https://www.markdownguide.org/)
+* MySQL Workbench (https://www.mysql.com/products/workbench/)
+* Postman (https://www.postman.com/)
+* GitHub (https://github.com/)
+* Docker (https://www.docker.com/)
 
-Open http://127.0.0.1:3000 in your browser.
+### Frameworks and Libraries
 
-## Rebuild the project
+_Did you use any aditional libraries? Describe them here._
+* Docker
+* Multipass
+* NodeJS
+* JQuery
 
-To incrementally build the project:
+## Report
+_Please add at least on section (a file) per Chapter. But you can add more._
 
-```sh
-npm run build
-```
+### Project presentation
+* Chapter 1: [Project presentation](doc/c1.md)
+### Resources
+* Chapter 2: [Resources](doc/c2.md)
+### Product
+* Chapter 3: [Product](doc/c3.md)
 
-To force a full build by cleaning up cached artifacts:
-
-```sh
-npm run rebuild
-```
-
-## Fix code style and formatting issues
-
-```sh
-npm run lint
-```
-
-To automatically fix such issues:
-
-```sh
-npm run lint:fix
-```
-
-## Other useful commands
-
-- `npm run migrate`: Migrate database schemas for models
-- `npm run openapi-spec`: Generate OpenAPI spec into a file
-- `npm run docker:build`: Build a Docker image for this application
-- `npm run docker:run`: Run this application inside a Docker container
-
-## Tests
-
-```sh
-npm test
-```
-
-## What's next
-
-Please check out [LoopBack 4 documentation](https://loopback.io/doc/en/lb4/) to
-understand how you can continue to add features to this application.
-
-[![LoopBack](https://github.com/loopbackio/loopback-next/raw/master/docs/site/imgs/branding/Powered-by-LoopBack-Badge-(blue)-@2x.png)](http://loopback.io/)
+## Team
+* Rodrigo Moreira [@rodmoreira41](https://github.com/rodmoreira41)
+* Paulo Azevedo [@pauloazevedo1994](https://github.com/pauloazevedo1994)
+* João Aragão [@JoaoAragaoA039132](https://github.com/JoaoAragaoA039132)
