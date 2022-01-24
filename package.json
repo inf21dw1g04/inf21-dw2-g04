@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "mysql": "^2.18.1",
-    "prop": "^0.1.0",
-    "react-admin": "^3.19.6",
-    "react-admin-lb4": "^1.0.3",
-    "types": "^0.1.1"
-  }
-}
