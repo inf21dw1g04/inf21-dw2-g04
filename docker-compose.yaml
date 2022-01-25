@@ -3,7 +3,7 @@ version: '3.7'
 services:
   mysql:
     container_name: biblioteca-mysql
-    image: inf21dw1g04/repositorio3:parte3-mysql
+    image: inf21dw1g04/parte3:mysql3
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     environment:
@@ -17,7 +17,7 @@ services:
     depends_on:
       - mysql
     container_name: biblioteca-app
-    image: inf21dw1g04/repositorio4:parte3-app
+    image: inf21dw1g04/parte3:app3
     environment:
       NODE_ENV: production
     ports:
@@ -28,7 +28,7 @@ services:
     depends_on:
       - app
     container_name: biblioteca-react
-    image: inf21dw1g04/repositorio5:parte3-react
+    image: inf21dw1g04/parte3-react:react3
     environment:
       NODE_ENV: production
     ports:

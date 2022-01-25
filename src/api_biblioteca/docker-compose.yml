@@ -11,7 +11,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: 12345678
-      # schema?
+      # schema
     networks:
       - biblioteca-network
     ports:
