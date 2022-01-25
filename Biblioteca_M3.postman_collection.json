@@ -1,0 +1,753 @@
+{
+	"info": {
+		"_postman_id": "107c32b8-be90-4e84-9d81-efbe6be5629b",
+		"name": "Biblioteca_M3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AutorController",
+			"item": [
+				{
+					"name": "GET Autor Count",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/autor/count?where=%7B%0A%20%20%22additionalProp1%22%3A%20%7B%7D%0A%7D",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"autor",
+								"count"
+							],
+							"query": [
+								{
+									"key": "where",
+									"value": "%7B%0A%20%20%22additionalProp1%22%3A%20%7B%7D%0A%7D"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT Autor ",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id_autor\": 1,\n  \"nome\": \"testePutPostman\",\n  \"nacionalidade\": \"string\"\n}"
+						},
+						"url": {
+							"raw": "http://[::1]:3000/autor/1",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"autor",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get autor",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/autor/3",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"autor",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete autor",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/autor/4",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"autor",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "post autor",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nome\": \"testePostman\",\n  \"nacionalidade\": \"Portugal\"\n}"
+						},
+						"url": {
+							"raw": "http://[::1]:3000/autor",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"autor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get autor",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/autor",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"autor"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "EditoraController",
+			"item": [
+				{
+					"name": "get editora",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/editora/count",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editora",
+								"count"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "put editora",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id_editora\": 2,\n  \"nome\": \"testePostman\"\n}"
+						},
+						"url": {
+							"raw": "http://[::1]:3000/editora/2",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editora",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get editora id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/editora/5",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editora",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete editora",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/editora/8",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editora",
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "post editora",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nome\": \"Teste\"\n}"
+						},
+						"url": {
+							"raw": "http://[::1]:3000/editora",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editora"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all editora",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/editora",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"editora"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "LivroAutorController",
+			"item": [
+				{
+					"name": "get livroAutor",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/livros/10/autor",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"livros",
+								"10",
+								"autor"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "LivroEditoraController",
+			"item": [
+				{
+					"name": "get livroEditora",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/livros/15/editora",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"livros",
+								"15",
+								"editora"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "LivroController",
+			"item": [
+				{
+					"name": "get total livros",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/livro/count",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"livro",
+								"count"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "put livro",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id_livro\": 29,\n  \"titulo\": \"testeLivro\",\n  \"ano_publicacao\": 1542,\n  \"id_autor\": 2,\n  \"id_editora\": 1\n}"
+						},
+						"url": {
+							"raw": "http://[::1]:3000/livro/29",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"livro",
+								"29"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get livro id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/livro/29",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"livro",
+								"29"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete livro id",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/livro/28",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"livro",
+								"28"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "post livro",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"titulo\": \"postman\",\n  \"ano_publicacao\": 1200,\n  \"id_autor\": 4,\n  \"id_editora\": 9\n}"
+						},
+						"url": {
+							"raw": "http://[::1]:3000/livro",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"livro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all livro",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/livro",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"livro"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "UtilizadorController",
+			"item": [
+				{
+					"name": "get total utilizador",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/utilizador/count",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"utilizador",
+								"count"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "put utilizador",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id_utilizador\": 4,\n  \"nome\": \"beatriz\"\n}"
+						},
+						"url": {
+							"raw": "http://[::1]:3000/utilizador/4",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"utilizador",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get utilizador id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/utilizador/4",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"utilizador",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete utilizador",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/utilizador/6",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"utilizador",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "post utilizador",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nome\": \"epocaNormal\"\n}"
+						},
+						"url": {
+							"raw": "http://[::1]:3000/utilizador",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"utilizador"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all utilizadores",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://[::1]:3000/utilizador",
+							"protocol": "http",
+							"host": [
+								"[::1]"
+							],
+							"port": "3000",
+							"path": [
+								"utilizador"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
