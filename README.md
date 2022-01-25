@@ -18,11 +18,11 @@ Construimos uma API que tem suporte nas relações entre os recursos 'Autor', 'E
 
 ## Gallery
 
-![pic5](doc/pics/pic5.png)
+![foto1](doc/images/foto1.png)
+![foto2](doc/images/foto2.png)
 
-|![pic1](doc/pics/pic1.png)|![pic2](doc/pics/pic2.png)|![pic3](doc/pics/pic3.png)|![pic4](doc/pics/pic4.png)|
+|![foto1](doc/images/foto1.png)|![foto2](doc/images/foto2.png)|
 | :---: | :---: | :---: | :---: |
-|![pic5](doc/pics/pic5.png)|![pic6](doc/pics/pic6.png)|![pic7](doc/pics/pic7.png)|![pic8](doc/pics/pic8.png)|
 
 ## Technologies
 
