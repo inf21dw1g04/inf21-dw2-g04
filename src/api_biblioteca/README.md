@@ -1,6 +1,7 @@
-# Biblioteca
+# Biblioteca - M2
 
-Repository to host the project developed for Desenvolvimento Web I, a second year subject at Universidade da Maia - ISMAI. Developed by Group 04 : [@rodmoreira41](https://github.com/rodmoreira41), [@pauloazevedo1994](https://github.com/pauloazevedo1994), [@JoaoAragaoA039132](https://github.com/JoaoAragaoA039132).
+Este repositorio foi criado para a Unidade Curricular de **Desenvolvimento Web I**, lecionada na **Universidade da Maia - ISMAI** no curso de **Informática**. <br>
+Desenvolvido pelo **Group 04 : [@rodmoreira41](https://github.com/rodmoreira41), [@pauloazevedo1994](https://github.com/pauloazevedo1994), [@JoaoAragaoA039132](https://github.com/JoaoAragaoA039132)**.
 
 ## Short theme description
 
