@@ -1,11 +1,11 @@
-# Biblioteca - M2
+# Biblioteca - M3
 
 Este repositorio foi criado para a Unidade Curricular de **Desenvolvimento Web I**, lecionada na **Universidade da Maia - ISMAI** no curso de **Informática**. <br>
 Desenvolvido pelo **Group 04 : [@rodmoreira41](https://github.com/rodmoreira41), [@pauloazevedo1994](https://github.com/pauloazevedo1994), [@JoaoAragaoA039132](https://github.com/JoaoAragaoA039132)**.
 
 ## Short theme description
 
-An example report using markdown on Github. This documentation is writen using [Markdown](https://www.markdownguide.org/). Here is a [link to the basic syntax](https://www.markdownguide.org/basic-syntax), but an [extended syntax](https://www.markdownguide.org/extended-syntax/) is also available. If you're starting with Markdown, you may want to try a [Markdown Tutorial](https://www.markdowntutorial.com/) and read the [getting started](https://www.markdownguide.org/getting-started/) section.
+Construimos uma API que tem suporte nas relações entre os recursos 'Autor', 'Editora', 'Utilizador' e 'Livro'.
 
 ## Repository organization
 
